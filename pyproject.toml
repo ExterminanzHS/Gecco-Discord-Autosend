@@ -1,0 +1,15 @@
+[project]
+name = "gecco-discord-autosend"
+description = "Custom nodes for ComfyUI to automatically send generated images to Discord channels."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["nextcord==2.5.0", "Pillow==9.5.0", "python-dotenv==1.0.0", "numpy==1.24.3"]
+
+[project.urls]
+Repository = "https://github.com/ExterminanzHS/Gecco-Discord-Autosend"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Gecco-Discord-Autosend"
+Icon = ""
